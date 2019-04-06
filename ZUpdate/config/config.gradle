@@ -1,0 +1,32 @@
+ext{
+    android=[
+            minSdkVersion:19,
+            targetSdkVersion:28,
+            compileSdkVersion:28,
+            buildToolsVersion:"28.0.3",
+            versionName:"1.0",
+            versionCode:1,
+            applicationId:"com.zhangyang.update"
+    ]
+
+    //一些的版本号
+    kotlin_version='1.2.30'
+    android_support_compat='28.0.0'
+    constraint_layout='1.0.2'
+    index_multidex='1.0.1'
+
+    jknf_version='3.0.3'
+
+    dependencies=[
+            "support-compat":[
+                    "com.android.support:appcompat-v7:$android_support_compat",
+                    "com.android.support.constraint:constraint-layout:$constraint_layout",
+                    "com.android.support:support-v4:$android_support_compat",
+                    "com.android.support:recyclerview-v7:$android_support_compat",
+                    "com.android.support:design:$android_support_compat",
+                    "com.android.support:cardview-v7:$android_support_compat",
+                    "com.android.support:multidex:${index_multidex}"
+            ],
+            "kotlin":"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    ]
+}

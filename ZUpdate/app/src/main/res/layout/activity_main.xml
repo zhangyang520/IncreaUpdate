@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_gengxin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="点击更新 !"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+      />
+
+    <TextView
+        android:id="@+id/btnok"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="我是谁LALLA"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+</LinearLayout>
